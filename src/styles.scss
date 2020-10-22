@@ -1,1 +1,23 @@
+
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: Montserrat;
+    src: url('assets/fonts/Montserrat-Regular.otf') format("opentype");
+}
+
+* {
+    font-family: 'Montserrat', 'Arial', serif;
+    margin: 0;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1280px;
+}
+
+:root {
+    --blue: #2196F3;
+}

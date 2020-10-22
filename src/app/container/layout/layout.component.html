@@ -1,0 +1,13 @@
+<app-header></app-header>
+<app-landing></app-landing>
+<app-introduction></app-introduction>
+<app-photos></app-photos>
+<app-features></app-features>
+<app-testimonial></app-testimonial>
+<app-footer (isDownloadTemplate)="openDownloadModal($event)"></app-footer>
+
+<app-backdrop *ngIf="isDownloadTemplate" [isBackdropVisible]="isDownloadTemplate"
+    (isBackdropClosed)="closeBackdropAndModal()">
+</app-backdrop>
+
+<app-modal *ngIf="isDownloadTemplate"></app-modal>

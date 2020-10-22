@@ -1,0 +1,62 @@
+.app-wrapper {
+    background-image: url('/assets/images/sn1-bg.png'), url('/assets/images/sn2-bg.png');
+    background-repeat: no-repeat, no-repeat;
+    background-position: 100px -75px, 100% 110%;
+    background-size: 550px;
+}
+.container > div  {
+    padding: 140px 15px;
+}
+.music-player-wrapper {    
+    display: flex;
+    justify-content: space-between;
+    > div {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-basis: 50%;
+
+        img {
+            margin: 12% 28%;
+        }
+    }
+
+}
+
+h1 {
+    color:var(--blue);
+    font-size: 40px;
+    font-weight: 500;
+}
+
+small {
+    display: block;
+    line-height: 2.5em;
+    color: #9e9e9ebd;
+}
+
+.chat-wrapper {
+    display: flex;
+    justify-content: space-between;
+    > div {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        flex-basis: 40%;
+
+        h1 {
+            color:var(--blue);
+            font-size: 40px;
+            font-weight: 500;
+        }
+
+        > div {
+            margin-right: 10%;
+            margin-bottom: 20%;
+        }
+        img {
+            margin-bottom: 22%;
+        }
+    }
+
+}

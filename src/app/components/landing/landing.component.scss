@@ -1,0 +1,42 @@
+.landing-wrapper {
+
+    .head {
+        position: relative;
+        text-align: center;
+        h1 {
+            font-weight: 500;  
+            font-size: 40px; 
+            margin-bottom: 10px;
+        }
+        small {
+            color: lightgray;
+        }
+
+        img {
+            width: 100%;  
+        }
+
+        button {
+            color:var(--blue);
+            border-radius: 60px;
+            height: 50px;
+            padding: 0px 35px;
+            background: #fff;
+            border: 1px solid #d3d3d314;
+            font-weight: 700;
+            position: absolute;
+            left: 45%;
+            top: 10%;
+            box-shadow: 0px 0px 5px 0px #3c3c3c26;
+        }
+
+        > div {
+            h1 {
+                margin-top : 10px;
+            }
+            margin-bottom: 50px;
+
+        }
+
+    }
+}

@@ -1,0 +1,38 @@
+.introduction {
+    
+    .items{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        text-align: -webkit-center;
+        
+        list-style-type: none;
+        > li {
+            padding: 10px;
+            box-sizing: border-box;
+            flex-basis: 20%;
+            
+            h4{
+                font-weight: 400;
+            }
+
+            small {
+                display: block;
+                color: lightgray;
+            }
+        }
+    }
+
+    button {
+        color:var(--blue);
+        padding: 0px 45px;
+        height: 50px;
+        font-weight: 700;
+        border-radius: 50px;
+        background: transparent;
+        border: 1px solid #d3d3d314;
+        box-shadow: 0 0 5px 0px #3c3c3c26;
+        display: block;
+        margin: 60px auto;
+    }
+}

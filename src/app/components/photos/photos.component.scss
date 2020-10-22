@@ -1,0 +1,40 @@
+.photo-gallery {
+
+    .photos {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #d3d3d34f;
+
+        > div {
+            flex-basis: 50%;
+            height: 600px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-sizing: border-box;
+          
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+            h1 {
+                font-size: 40px;
+                font-weight: 500;
+            }
+
+            &:nth-child(2) {
+                display: flex;
+                align-items: flex-start;
+                justify-content: flex-start;
+                padding: 150px;
+            }
+            small {
+                display: block;
+                line-height: 2.5em;
+                color: #9e9e9ebd;
+            }
+        }
+    }
+}

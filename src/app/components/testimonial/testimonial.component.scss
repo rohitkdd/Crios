@@ -1,0 +1,46 @@
+.testimonial-wrapper {
+    display: flex;
+    
+    background-color: #847d7d14;
+    background-size: 500px;
+
+    .main  {
+        background-image: url('/assets/images/Snowflake.png');
+        background-repeat: no-repeat;
+        background-position: 0 30px;
+        background-size: 40%;
+        display: flex;
+        padding-top: 25px;
+        
+        >div{
+            flex-basis: 50%;
+            box-sizing: border-box;
+            &:last-child{
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                padding: 15px;
+            }
+            >img{
+                width: 80%;
+                object-fit: contain;
+            }
+            
+            small {
+                display: block;
+                line-height: 2.5em;
+                color: #9e9e9ebd;
+            }
+
+            .sign {
+                margin-top: 50px;
+            }
+
+            h1 {
+                color: red;
+                font-weight: 400;
+                font-size: 38px;
+            }
+        }
+    }   
+}
