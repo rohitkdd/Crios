@@ -13,7 +13,6 @@ export class FooterComponent implements OnInit {
   }
 
   getTemplate(): void {
-    console.log('in get template');
     this.isDownloadTemplate.emit(true);
   }
 
